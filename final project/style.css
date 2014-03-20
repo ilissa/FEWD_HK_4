@@ -47,20 +47,29 @@ header {
 #callout .first {
 	font-size: 4.5rem;
 	margin-top: 250px;
-	margin-left: 4%;
+	margin-left: 10px;
 }
 
 #callout .second {
 	font-size: 5.75rem;
 	text-transform: uppercase;
 	margin-top: -54px;
-	margin-left: 5%;
+	margin-left: 15px;
 }
 
 #callout .third {
 	font-size: 4.75rem;
 	margin-top: -75px;
-	margin-left: 5%;
+	margin-left: 15px;
+}
+
+.shipping {
+	color: #a21414;
+	float: right;
+	font-size: 2.5rem;
+	margin-right: 5%;
+	margin-top: 15px;
+	display: inline-block;
 }
 
 .shopnow {
@@ -71,7 +80,7 @@ header {
 	background-color: #711b0e;
 	height: 40px;
 	width: 80%;
-	margin-left: 3%;
+	margin-left: 8px;
 	padding-top: 15px;
 	margin-top: -40px;
 }
@@ -107,10 +116,11 @@ header {
 .usermenu {
 	float: right;
 	width: 15%;
+	margin-top: -3px;
 }
 
 nav ul {
-	margin-top: 83px;
+	margin-top: 92px;
 	margin-right: 3%;
 }
 nav li {
@@ -118,7 +128,8 @@ nav li {
 	font-family: 'EB Garamond', serif;
 	list-style-type: none;
 	float: left;
-	margin-right: 2%;
+	margin-right: 6%;
+	margin-top: -10px;
 }
 
 nav li a {
@@ -133,7 +144,7 @@ nav li a {
 }
 
 .usermenu li:last-child {
-	padding-left: 20px;	
+	padding-left: 12px;	
 }
 
 /*nav ul li {
@@ -183,7 +194,7 @@ nav ul li a {
 }
 
 #shop {
-	max-width: 100%;
+	/*width: 100%;*/
 }
 
 #shop .tights p{
@@ -235,6 +246,7 @@ nav ul li a {
 }*/
 
 .description{
+	display: none;
 	position: relative;
 	font-size: 1.5rem;
 	width: 100%;
@@ -242,7 +254,7 @@ nav ul li a {
 	line-height: 30px;
 	color: white;
 /*	display: none;*/
-	background-color: black; filter:alpha(opacity=70); opacity:.7;
+	background-color: rgba(0,0,0,.7);
 	padding:20px;
 	font-family: 'Nobile', sans-serif;
 }
@@ -252,7 +264,6 @@ nav ul li a {
 }
 
 .button {
-	position: absolute;
 	height:30px;
 	width: 50%;
 	/*color: #711b0e;*/
@@ -262,12 +273,13 @@ nav ul li a {
 	text-transform: uppercase;
 	background-color: #711b0e;
 	display: block;
-	padding: 2% 0%;
-	margin-top: -325px;
-	margin-left: 20%;
-	display: none;
+	padding: 3% 0%;
+	/*margin-top: -325px;*/
+	/*margin-left: 20%;*/
+	/*display: none;*/
 	/*padding-top: 18px;*/
-	
+	margin: 0 auto;
+	padding-top: 5px;
 }
 
 .button a {
@@ -364,9 +376,8 @@ input[type=text]{
 	text-decoration: none;
 	color: #808080;
 	font-size: 1rem;
-	height: 21px;
 	width: 40%;
-	
+	padding-left: 13px;
 }
 
 input[type=submit]{
@@ -374,14 +385,19 @@ input[type=submit]{
 	background-color: #711b0e;
 	color: white;
 	font-size: 1.5rem;
-	height: 25px;
 	width: 25%;
 	display: inline-block;
 	border-radius: none;
 	border: none;
 	text-transform: uppercase;
 	position: relative;
-	padding-bottom: 12px;
+	top:1px;
+	/*padding-bottom: 12px;*/
+}
+
+.mailchimp input {
+	height: 32px;
+	box-sizing: border-box;
 }
 
 .three-column {
@@ -400,6 +416,55 @@ footer #social-media {
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
+}
 
+
+@media all and (max-width: 1220px){
+	.description {
+		height: 400px;
+	}
+	.description .short,
+	.description .long {
+		display: none;
+	}
+	.description .medium {
+		display: block;
+	}
+}
+
+@media all and (max-width: 757px){
+	.tights{
+		width: 100%;
+		float:none;
+	}
+	.description {
+		height: 300px;
+	}
+	.description .medium,
+	.description .long {
+		display: none;
+	}
+	.description .short {
+		display: block;
+	}
+}
+
+@media all and (max-width: 480px){
+	.tights{
+		width: 100%;
+		float:none;
+	}
+	.description {
+		height: 300px;
+		width: 100%;
+		display: block;
+	}
+	.description .medium,
+	.description .long {
+		display: none;
+	}
+	.description .short {
+		display: block;
+	}
 
 }
