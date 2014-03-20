@@ -265,7 +265,7 @@ nav ul li a {
 
 .button {
 	height:30px;
-	width: 50%;
+	width: 60%;
 	/*color: #711b0e;*/
 	font-size: 2rem;
 	font-weight: bold;
@@ -279,7 +279,7 @@ nav ul li a {
 	/*display: none;*/
 	/*padding-top: 18px;*/
 	margin: 0 auto;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 
 .button a {
