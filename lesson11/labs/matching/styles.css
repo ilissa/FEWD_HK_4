@@ -1,0 +1,44 @@
+h1 {
+	font-size: 60px;
+	padding-left: 400px;
+	padding-top: 20px;
+}
+
+#container {
+	border-color: black;
+	border-width: 2px;
+
+}
+ul#cards li{
+	width: auto;
+	float: left;
+}
+
+ul, li.backcard {
+	padding-left: 400px;
+	padding-top: 30px;
+	list-style-type: none;
+	display: inline;
+}
+
+ul, li.backcard2 {
+	padding-left: 500px;
+	padding-top: 30px;
+	list-style-type: none;
+	display: inline;
+}
+
+ul, li.backcard3 {
+	padding-left: 600px;
+	padding-top: 30px;
+	list-style-type: none;
+	display: inline;
+}
+
+ul, li.backcard4 {
+	padding-left: 700px;
+	padding-top: 30px;
+	list-style-type: none;
+	display: inline;
+}
+

@@ -1,0 +1,401 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'EB Garamond', serif;
+	margin-top: -1%;
+}
+
+
+/*.button,*/
+.highlight {
+	font-family: 'Nobile', sans-serif;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+#mainimage {
+	position: relative;
+	/*z-index: -1;*/
+	height: 933px;
+	background: url(images/polka-dots-home-page-no-copy.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	background-color: #f8f8ef;
+	z-index: 100;
+}
+
+#callout {
+	width: 20%;
+	float: right;
+	margin-right: 15%;
+	/*margin-top: 300px;*/
+}
+
+#callout .first {
+	font-size: 4.5rem;
+	margin-top: 250px;
+	margin-left: 4%;
+}
+
+#callout .second {
+	font-size: 5.75rem;
+	text-transform: uppercase;
+	margin-top: -54px;
+	margin-left: 5%;
+}
+
+#callout .third {
+	font-size: 4.75rem;
+	margin-top: -75px;
+	margin-left: 5%;
+}
+
+.shopnow {
+	color: #711b0e;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #711b0e;
+	height: 40px;
+	width: 80%;
+	margin-left: 3%;
+	padding-top: 15px;
+	margin-top: -40px;
+}
+
+.shopnow a {
+	text-decoration: none;
+	font-size: 2.5rem;
+	padding-top: 30px;
+	color: white;
+}
+
+.top li {
+	font-size: 1.5rem;
+	margin: 2%;
+	list-style-type: none;
+	float: right;	
+	margin-left:-1%;
+	margin-top: 40px;
+}
+
+.top li a {
+	text-decoration: none;
+	color: #515051;
+	font-size: 2rem;
+}
+
+.menu {
+	width: 40%;
+	margin-left: 25%;
+	float: left;
+}
+
+.usermenu {
+	float: right;
+	width: 15%;
+}
+
+nav ul {
+	margin-top: 83px;
+	margin-right: 3%;
+}
+nav li {
+	font-size: 2rem;
+	font-family: 'EB Garamond', serif;
+	list-style-type: none;
+	float: left;
+	margin-right: 2%;
+}
+
+nav li a {
+	color: #515051;
+	text-decoration: none;
+	/*font-family: 'EB Garamond', serif;*/
+}
+
+.usermenu li:first-child {
+	padding-right: 20px;
+	border-right: solid 2px #515051;
+}
+
+.usermenu li:last-child {
+	padding-left: 20px;	
+}
+
+/*nav ul li {
+	font-size: 1.5rem;
+	margin: 2%;
+	list-style-type: none;
+	float: left;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: gray;
+	font-size: 2rem;
+}*/
+
+#logo {
+	position: absolute;
+	float: left;
+	padding-top: 20px;
+	padding-left: 3%;
+
+}
+
+#secondimage {
+	height: 800px;
+	max-width: 100%;
+	position: relative;
+	background: url('images/wade-belle-home-page-image-4-flipped-no-copy.jpg') no-repeat center center fixed; 
+	background-size: cover;
+}
+
+#secondwords {
+	position: absolute;
+	width: 100%;
+}
+
+#secondwords .firstsecond {
+	font-size: 5rem;
+	margin-left: 10%;
+	padding-top: 190px;
+}
+
+#secondwords .secondsecond {
+	font-size: 4rem;
+	margin-left: 10%;
+	margin-top: -50px;
+}
+
+#shop {
+	max-width: 100%;
+}
+
+#shop .tights p{
+	width: 100%;
+	float: left;
+}
+.tights {
+	float:left;
+	width: 30.33%;
+	padding-right: 3%;
+	margin: auto;
+	position: relative;
+}
+
+#shop .tights .pictures {
+	width: 100%;
+	height: auto;
+}
+
+#shop .tights .description {
+	position: absolute;
+	top: 0;
+	width: 70%;
+	margin-left: 6%;
+}
+
+/*#shop .tights .transparentbox {
+	height: 866px;
+	width: 20%;
+	color: #61605d;*/
+
+/*.description {
+	display: none;*/
+}
+
+/*#shop p {
+	width: 30%;
+	font-size: 1.5rem;
+
+}*/
+
+.tights ul li a {
+	color: white;
+
+}
+
+/*.tights .description {
+	margin-top: -200px;
+}*/
+
+.description{
+	position: relative;
+	font-size: 1.5rem;
+	width: 100%;
+	height: 500px;
+	line-height: 30px;
+	color: white;
+/*	display: none;*/
+	background-color: black; filter:alpha(opacity=70); opacity:.7;
+	padding:20px;
+	font-family: 'Nobile', sans-serif;
+}
+
+.description p{
+	padding-bottom: 10px;
+}
+
+.button {
+	position: absolute;
+	height:30px;
+	width: 50%;
+	/*color: #711b0e;*/
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #711b0e;
+	display: block;
+	padding: 2% 0%;
+	margin-top: -230px;
+	margin-left: 20%;
+	display: none;
+	/*padding-top: 18px;*/
+	
+}
+
+.button a {
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+	font-family: 'Nobile', sans-serif;
+}
+
+.box{
+	 border: 1px solid black;
+	 width: 15%;
+	 /*width: 5%;*/
+	 /*height: 10px; */
+	 /*margin-left: 30%;*/
+	 float: right;
+
+}
+h3{
+	font-size: 2rem;
+	color: white;
+	font-family: 'Nobile', sans-serif;
+}
+
+h2 {
+	font-size: 2rem;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Nobile', sans-serif;
+}
+
+.pictures {
+	width: 100%;
+}
+
+
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: #f8f8ef;
+}
+
+footer #bottom-nav {
+	color: gray;
+	width: 100%;
+}
+
+
+footer ul li {
+	float: left;
+	padding-top: 30px;
+	padding-left: 1%;
+	padding-right: 3%;
+	list-style-type: none;
+	font-size: 2rem;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #515051;
+}
+
+.one-column {
+	float:left;
+	width: 35%;
+	margin: auto;
+}
+
+.two-column {
+	float:left;
+	/*margin-top: 20px;*/
+	margin-left: 85px;
+	width: 35%;
+	color: #515051;
+	font-size: 2rem;
+}
+
+.two-column p {
+	padding-top: 19px;
+	margin-left: 20%;
+	margin-bottom: 10px;
+}
+
+form{
+	width: 100%;
+	padding-top: -5px;
+	margin-left: 20%;
+	}
+
+input[type=text]{
+	text-decoration: none;
+	color: #808080;
+	font-size: 1rem;
+	height: 21px;
+	width: 40%;
+	
+}
+
+input[type=submit]{
+	text-decoration: none;
+	background-color: #711b0e;
+	color: white;
+	font-size: 1.5rem;
+	height: 25px;
+	width: 20%;
+	display: inline-block;
+	border-radius: none;
+	border: none;
+	text-transform: uppercase;
+}
+
+.three-column {
+	float:right;
+	width: 20%;
+	padding-right: 3%;
+	padding-top: -10px;
+	margin: auto;
+}
+
+footer #social-media {
+	/*margin-top: -50px;*/
+}
+
+#social-media li{
+	text-decoration: none;
+	list-style-type: none;
+	float: right;
+
+
+}

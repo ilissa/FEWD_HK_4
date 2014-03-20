@@ -1,0 +1,167 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+	font-family: arial;
+	font-size: 12px;
+/*	width: 1024px;
+	margin: 0 auto;*/
+}
+
+header {
+	background-color: black;
+	border-bottom: solid 10px yellow;
+}
+
+h1 {
+	font-family: times;
+	font-size: 36px;
+	color: yellow;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+nav ul{
+	float: right;
+	padding: 5px;
+	padding-top: 2px;
+}
+nav li {
+	padding: 5px;
+	list-style: none;
+	background-color: black;
+	float: left;
+}
+
+nav ul li:nth-child(1) a,
+nav ul li:nth-child(2) a{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav a {
+	color: white;
+	background-color: black;
+	font-size: 18px;
+	padding: 5px;
+	text-decoration: none;
+}
+h2 {
+	text-align: center;
+	font-style: italic;
+	font-size: 28px;
+	background-color: #b5b5b5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.cross-out {
+	text-decoration: line-through;
+	color: #737373;
+}
+
+.underline {
+	border-bottom: solid 2px yellow;
+	
+}
+
+.img-container {
+	/*background: url(images/coworking.jpg)no-repeat center center fixed; */
+	background: url(images/coworking.jpg)
+	center center no-repeat;
+	background-size: cover;
+	/*height: 664px;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*position: relative;*/
+    margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: left;
+	padding-left: 30px;
+	}
+
+.meet {
+	color: black;
+	background-color: rgba(256,256,256,0.7);
+	width: 35%;
+	height: 500px;
+	float:right;
+	/*top: 50px;*/
+	/*right: 50px;*/
+	/*position: absolute;*/
+	}
+
+.container3columns{
+	margin:auto;
+	float: left;
+}
+
+h4 {
+	color: black;
+	font-size: 24px;
+	padding-left: 30px; 
+}
+
+div article {
+	width: 33%;
+	float:left;
+	border-left: solid 1px #ababab;
+}
+
+.sign {
+	background-color: #ababab;
+	padding: 10px;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 70px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.start {
+	background-color: #ababab;
+	padding: 10px;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 70px;
+	font-size: 18px;
+}
+
+p {
+	text-align: left;
+	font-size: 24px;
+	padding-left: 30px;
+	margin-bottom: 50px;
+}
+
+.button {
+	background-color: yellow;
+	padding: 10px;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 70px;
+	font-size: 18px;
+}
+
+hr{
+	border-color: yellow;
+}
+

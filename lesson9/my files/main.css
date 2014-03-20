@@ -1,0 +1,17 @@
+h1 {
+	margin-left: 300px;
+	margin-top: 20px;
+	font-size: 80px;
+	text-transform: capitalize;
+}
+
+hr {
+	color: black;
+	width: 2px;
+}
+
+li {
+	color: yellow;
+	text-decoration: none;
+	float: left;
+}

@@ -1,0 +1,54 @@
+
+<!-- Player clicks on any card to start
+Player clicks on a second card to see if it matches
+If it matches the first card, there is an alert that says "Congratulations, you matched the cards in 2 clicks"
+If it doesn't match, the player clicks a third card, then the alert says "Congratulations, you matched the cards in 3 clicks" 
+If the player clicks "start game" or "reset game", the cards turn over and the game starts again-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Matching Cards Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Matching Card Game</h1>
+
+	<div id="conatiner">
+	<h2 class="game over">"Congratulations, you've matched all cards in <span id="numberofmoves"></span>moves"</h2>
+		<ul id="cards">
+	 		<li backcard>
+				<img src="images/back-of-card.png">
+			</li>
+			<li backcard2>
+				<img src="images/back-of-card.png">
+			</li>
+			<li backcard3>
+				<img src="images/back-of-card.png">
+			</li>
+			<li backcard4>
+				<img src="images/back-of-card.png">
+			</li>
+			<li class="King">
+	 			<img src="images/King.png">
+	 		</li>
+	 		<li class="Queen">
+	 			<img src="images/Queen.png">
+	 		</li>
+		</div>
+
+		<div id="buttons">
+			<a href="#">Start Game</a>
+			<a href="#">Reset Game</a>	
+			<a href="#">Cheat Mode</a>	
+
+		</div>
+	</div>
+		
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

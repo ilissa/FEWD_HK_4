@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+* End the rating series
+* Show the deliciousness score
+* Rerate the images
+
+Implementation in code
+
+// DISPLAY Displayed an image
+	* An array of images
+	* Display the image corresponding to the number in the dequence the user is at
+// LOGIC End the rating series once the user reaches the last image in the array, end the series (disable the skip button)
+// DISPLAY Show the deliciousness score
+	* Add the scores, divide by total number of images
+
+// NAVIGATION Return to a previously visited image
+	* Display the Previous image ()
+
+// NAVIGATION Skipping the current image
+	* Display the Next image ()
+// RATING Ability to rate the image
+	* Store the user score
+// RATING Rerate the images
+
+// DISPLAY Display the subsequent image on rating
+
+// LOGIC End the rating series

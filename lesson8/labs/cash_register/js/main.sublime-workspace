@@ -1,0 +1,510 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"total",
+				"totalAmount"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"color",
+				"border-color"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"h",
+				"h5	Tag"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"art",
+				"article	Tag"
+			],
+			[
+				"MAR",
+				"margin-bottom"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"adi",
+				"aside	Tag"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"git c",
+				"Package Control: List Packages"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"gitcu",
+				"Git: Custom Command"
+			],
+			[
+				"git",
+				"Git: Custom Command"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"colo",
+				"Color picker"
+			],
+			[
+				"coo",
+				"Color picker"
+			],
+			[
+				"git cust",
+				"Git: Custom Command"
+			],
+			[
+				"git custom",
+				"Git: Custom Command"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"gitcommand",
+				"Git: Custom Command"
+			],
+			[
+				"gitcommmand",
+				"Git: Custom Command"
+			],
+			[
+				"color picker",
+				"Color picker"
+			],
+			[
+				"coor",
+				"Color picker"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git graph",
+				"Git: Graph All"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git diff",
+				"Git: Diff Staged"
+			],
+			[
+				"git add..",
+				"Git: Add..."
+			],
+			[
+				"git cu",
+				"Git: Custom Command"
+			],
+			[
+				"git comman",
+				"Git: Custom Command"
+			],
+			[
+				"qui",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"moe",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"move",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ilissa/FEWD_HK_4/lesson6/slides.md",
+		"/Users/ilissa/FEWD_HK_4/lesson5/labs/startup_matchmaker/style.css",
+		"/Users/ilissa/FEWD_HK_4/lesson5/labs/startup_matchmaker/index.html",
+		"/Users/ilissa/FEWD_HK_4/lesson3/labs/fashion_blog_part1/style.css",
+		"/Users/ilissa/FEWD_HK_4/lesson3/labs/fashion_blog_part1/index.html",
+		"/Users/ilissa/FEWD_HK_4/lesson4/labs/codepen_layout_example/demo.txt",
+		"/Users/ilissa/FEWD_HK_4/lesson6/labs/paper_scissors_stone/pseudo_code.txt",
+		"/Users/ilissa/FEWD_HK_4/intro/demo/test/lib/chai.js",
+		"/Users/ilissa/FEWD_HK_4/lesson5/labs/startup_matchmaker/StartupMatchmaker.png",
+		"/Users/ilissa/FEWD_HK_4/lesson5/labs/styles/css",
+		"/Users/ilissa/FEWD_HK_4/lesson5/labs/styles/html",
+		"/Users/ilissa/FEWD_HK_4/lesson3/labs/fashion_blog_part1/html",
+		"/Users/ilissa/FEWD_HK_4/lesson4/labs/codepen_boxmodelhack/demo.txt",
+		"/Users/ilissa/FEWD_HK_4/.gitignore",
+		"/Users/ilissa/FEWD_HK_4/lesson2/labs/wendy_resume/styles/style.css",
+		"/Users/ilissa/FEWD_HK_4/lesson2/labs/wendy_resume/styles.css",
+		"/Users/ilissa/FEWD_HK_4/lesson3/labs/box_model/styles.css",
+		"/Users/ilissa/FEWD_HK_4/lesson2/labs/wendy_resume/ilissa resume.html",
+		"/Users/ilissa/FEWD_HK_4/lesson3/labs/box_model/index.html",
+		"/Users/ilissa/FEWD_HK_4/lesson3/labs/template/css/style.css",
+		"/Users/ilissa/FEWD_HK_4/intro/demo/bower.json",
+		"/Users/ilissa/FEWD_HK_4/index.html",
+		"/Users/ilissa/FEWD_HK_4/lesson2/labs/wendy_resume/ilissa resume.css",
+		"/Users/ilissa/FEWD_HK_4/lesson2/img",
+		"/Users/ilissa/FEWD_HK_4/final/ilissa/readme.md",
+		"/Users/ilissa/FEWD_HK_4/.gitmodules",
+		"/Users/ilissa/FEWD_HK_4/lesson1/labs/ga_press_release/index.html",
+		"/Users/ilissa/FEWD_HK_4/intro/demo/Gruntfile.js",
+		"/Users/ilissa/FEWD_HK_4/README.md"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h3",
+			"h2",
+			"+"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"box",
+				"lesson3/labs/box_model/index.html"
+			],
+			[
+				"red",
+				"final/ilissa/readme.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
